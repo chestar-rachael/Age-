@@ -1,0 +1,58 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+
+}
+h1{
+  color: hsl(194, 100%, 50%);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+.container{
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+label{
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+#birthday{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px;
+  padding: 2px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 5px;
+}
+#ageBtn{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 2px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(180, 49%, 50%);
+}
+#ageBtn:hover{
+  background-color:hsl(180, 49%, 40%) ;
+}
+#resultBtn{
+  font-weight: bold;
+  font-size: 24px;
+
+}
